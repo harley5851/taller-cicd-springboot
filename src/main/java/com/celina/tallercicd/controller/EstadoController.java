@@ -8,6 +8,6 @@ public class EstadoController {
 
     @GetMapping("/api/estado")
     public String estado() {
-        return "OK";
+        return "Servicio funcionando correctamente";
     }
 }
